@@ -25,15 +25,26 @@ public class QTest {
 
         WebElement box = driver.findElement(By.xpath("//*[@id=\"i10\"]/div[2]"));
         box.click();
+        Thread.sleep(1000);
 
         WebElement box1 = driver.findElement(By.xpath("//*[@id=\"i13\"]/div[2]"));
         box1.click();
+        Thread.sleep(1000);
 
         WebElement box2 = driver.findElement(By.xpath("//*[@id=\"i16\"]/div[2]"));
         box2.click();
+        Thread.sleep(1000);
 
         WebElement dot1 = driver.findElement(By.xpath("//*[@id=\"i23\"]/div[3]/div"));
         dot1.click();
+        Thread.sleep(1000);
+
+        WebElement dot2 = driver.findElement(By.xpath("//*[@id=\"i26\"]/div[3]/div"));
+        dot2.click();
+        Thread.sleep(1000);
+
+        WebElement dot3 = driver.findElement(By.xpath("//*[@id=\"i29\"]/div[3]/div"));
+        dot3.click();
 
 
 
