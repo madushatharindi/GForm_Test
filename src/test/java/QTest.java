@@ -18,10 +18,13 @@ public class QTest {
 
     @Test
     public void testBoxTests() throws InterruptedException {
+
 //        type your name
+
         WebElement name = driver.findElement(By.xpath("//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input"));
         name.sendKeys("Madusha");
         Thread.sleep(2000);
+
 
         WebElement box = driver.findElement(By.xpath("//*[@id=\"i10\"]/div[2]"));
         box.click();
