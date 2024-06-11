@@ -38,6 +38,8 @@ public class QTest {
         box2.click();
         Thread.sleep(1000);
 
+        //multiple choises
+
         WebElement dot1 = driver.findElement(By.xpath("//*[@id=\"i23\"]/div[3]/div"));
         dot1.click();
         Thread.sleep(1000);
